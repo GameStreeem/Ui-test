@@ -67,9 +67,18 @@
   background: black;
 }
 
+        img[alt*="Logo"] {
+   border: double 2px transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(black, black), 
+                    linear-gradient(45deg, aqua, blue, magenta);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
 p {
 padding-left: 30%;
-padding-top: 10%;
+padding-top: 5%;
  font-size: 40px;
   font-family: greycliff;
   color: #ffffff;
@@ -81,12 +90,7 @@ src: url(Greycliff-CF-Heavy.woff);
 }
 
 img {
-  border: double 2px transparent;
-  border-radius: 25px;
-  background-image: linear-gradient(black, black), 
-                    linear-gradient(45deg, aqua, blue, magenta);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+  
 }
 
 a {
