@@ -59,8 +59,30 @@
 </a>
 </center>
 <style>
+@media (prefers-color-scheme: dark) {
+body {
+    background: black;=#(ee
+  }
+  .topnav {
+   background: rgb(0,255,48);
+background: linear-gradient(90deg, aqua, blue, magenta);
+  overflow: hidden;
+  border-radius: 50px;
+  border: double 2px transparent;
+  border-radius: 50px;
+  background-image: linear-gradient(black, black), 
+                    linear-gradient(45deg, aqua, blue, magenta);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+    .topnav p {
+  color: white;
+}
+}
+
+  
   body {
-  background: black;
+  background: white;
 }
 
 .topnav {
@@ -70,7 +92,7 @@ background: linear-gradient(90deg, aqua, blue, magenta);
   border-radius: 50px;
   border: double 2px transparent;
   border-radius: 50px;
-  background-image: linear-gradient(black, black), 
+  background-image: linear-gradient(white, white), 
                     linear-gradient(45deg, aqua, blue, magenta);
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -96,7 +118,7 @@ background: linear-gradient(90deg, aqua, blue, magenta);
 }
 
   .topnav p {
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
